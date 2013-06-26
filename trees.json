@@ -1,0 +1,1207 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Street Tree Census (Brooklyn)",
+      "attribution" : "Department of Parks and Recreation (DPR)",
+      "averageRating" : 0,
+      "category" : "Environmental Sustainability",
+      "description" : "Brooklyn street tree census inventory",
+      "displayType" : "map",
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowClass" : "",
+      "signed" : false,
+      "tableId" : 243878,
+      "totalTimesRated" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 2979604,
+        "name" : "OBJECTID_1",
+        "dataTypeName" : "number",
+        "description" : "OBJECTID_1",
+        "fieldName" : "objectid_1",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560725,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979605,
+        "name" : "Shape",
+        "dataTypeName" : "location",
+        "description" : "Shape",
+        "fieldName" : "shape",
+        "position" : 2,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1560726,
+        "width" : 100,
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 2979606,
+        "name" : "OBJECTID",
+        "dataTypeName" : "number",
+        "description" : "OBJECTID",
+        "fieldName" : "objectid",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560727,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979607,
+        "name" : "TREEID",
+        "dataTypeName" : "number",
+        "description" : "TREEID",
+        "fieldName" : "treeid",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560728,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979608,
+        "name" : "ONSTREET",
+        "dataTypeName" : "text",
+        "description" : "ONSTREET",
+        "fieldName" : "onstreet",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560729,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979609,
+        "name" : "PARITY",
+        "dataTypeName" : "text",
+        "description" : "PARITY",
+        "fieldName" : "parity",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560730,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979610,
+        "name" : "CROSSSTREE",
+        "dataTypeName" : "text",
+        "description" : "CROSSSTREE",
+        "fieldName" : "crossstree",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560731,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979611,
+        "name" : "CROSSSTR_1",
+        "dataTypeName" : "text",
+        "description" : "CROSSSTR_1",
+        "fieldName" : "crossstr_1",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560732,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979612,
+        "name" : "BUILDINGNU",
+        "dataTypeName" : "text",
+        "description" : "BUILDINGNU",
+        "fieldName" : "buildingnu",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560733,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979613,
+        "name" : "BUILDINGST",
+        "dataTypeName" : "text",
+        "description" : "BUILDINGST",
+        "fieldName" : "buildingst",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560734,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979614,
+        "name" : "TREELOCATI",
+        "dataTypeName" : "number",
+        "description" : "TREELOCATI",
+        "fieldName" : "treelocati",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560735,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979615,
+        "name" : "SITE",
+        "dataTypeName" : "number",
+        "description" : "SITE",
+        "fieldName" : "site",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560736,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979616,
+        "name" : "TREEPIT",
+        "dataTypeName" : "text",
+        "description" : "TREEPIT",
+        "fieldName" : "treepit",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560737,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979617,
+        "name" : "TREECONDIT",
+        "dataTypeName" : "number",
+        "description" : "TREECONDIT",
+        "fieldName" : "treecondit",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560738,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979618,
+        "name" : "DIAMETER",
+        "dataTypeName" : "number",
+        "description" : "DIAMETER",
+        "fieldName" : "diameter",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560739,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979619,
+        "name" : "SPECIES",
+        "dataTypeName" : "text",
+        "description" : "SPECIES",
+        "fieldName" : "species",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560740,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979620,
+        "name" : "BOROUGH",
+        "dataTypeName" : "text",
+        "description" : "BOROUGH",
+        "fieldName" : "borough",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560741,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979621,
+        "name" : "ZIPCODE",
+        "dataTypeName" : "text",
+        "description" : "ZIPCODE",
+        "fieldName" : "zipcode",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1560742,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979622,
+        "name" : "FID_1",
+        "dataTypeName" : "number",
+        "description" : "FID_1",
+        "fieldName" : "fid_1",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560743,
+        "width" : 100,
+        "format" : {
+        }
+      }, {
+        "id" : 2979623,
+        "name" : "COMMDIST",
+        "dataTypeName" : "number",
+        "description" : "COMMDIST",
+        "fieldName" : "commdist",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1560744,
+        "width" : 100,
+        "format" : {
+        }
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "opacity" : 1,
+          "layerKey" : "World Street Map (ESRI)"
+        } ],
+        "viewport" : {
+          "ymin" : 40.662494543468,
+          "ymax" : 40.693309461482,
+          "xmin" : -74.00245143532,
+          "xmax" : -73.934550777678
+        },
+        "distinctLegend" : true,
+        "plotStyle" : "point",
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "plot" : {
+            "descriptionColumns" : [ {
+              "tableColumnId" : 1560727
+            } ]
+          }
+        } ],
+        "plot" : {
+          "descriptionColumns" : [ {
+            "tableColumnId" : 1560727
+          } ],
+          "longitudeId" : 1560726,
+          "latitudeId" : 1560725
+        }
+      },
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "drawingInfo.renderer" : {
+            "symbol.size" : "4",
+            "symbol.type" : "esriSMS",
+            "symbol.yoffset" : "0",
+            "symbol.xoffset" : "0",
+            "symbol.angle" : "0",
+            "symbol.style" : "esriSMSCircle"
+          },
+          "Basic" : {
+            "copyrightText" : "",
+            "type" : "Feature Layer",
+            "definitionExpression" : "",
+            "Source" : "http://nycopendata.esri.com/ArcGIS/rest/services/DOITTServices/BrooklynTreeWM/MapServer/0",
+            "id" : "0",
+            "minScale" : "0",
+            "displayField" : "ONSTREET",
+            "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText",
+            "name" : "BrooklynTree",
+            "currentVersion" : "10.02",
+            "hasAttachments" : "false",
+            "capabilities" : "Map,Query,Data",
+            "Spatial Reference wkid" : "102100",
+            "maxScale" : "0",
+            "defaultVisibility" : "true",
+            "geometryType" : "esriGeometryPoint"
+          },
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "drawingInfo.renderer.symbol" : {
+            "outline.width" : "1"
+          },
+          "drawingInfo" : {
+            "transparency" : "0",
+            "renderer.description" : "",
+            "renderer.type" : "simple",
+            "renderer.label" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "ztcw-bzc8"
+            }
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "blobId" : "CB3E3F30-636D-449B-BA5C-6BC9AB34847C",
+          "name" : "DPR_BrooklynStreetTrees_001.zip",
+          "filename" : "DPR_BrooklynStreetTrees_001.zip"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 2979619,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "mo"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "undefined" : 1560740
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1331656907,
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "tags" : [ "dpr", "park", "parks", "nature", "recreation", "tree", "census", "arbor", "geographic", "brooklyn", "healthy living" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 2979619,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "mo"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "undefined" : 1560740
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      },
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 1332, "1332", null, null, null, 0, null, null, "1332", [ null, "40.627303278000056", "-74.00864014799993", null, false, {
+    "point" : [ -74.00864014799993, 40.627303278000056 ]
+  } ], "178", "1347", "OVINGTON AVENUE", "even", "10 AVENUE", "11 AVENUE", "1068", "OVINGTON AVENUE", "3", "1", "3", "1", "4", "MO", "Brooklyn", "11219", "37", "310" ]
+, [ 1975, "1975", null, null, null, 0, null, null, "1975", [ null, "40.633315544000084", "-73.97913719499991", null, false, {
+    "point" : [ -73.97913719499991, 40.633315544000084 ]
+  } ], "247", "2044", "17 AVENUE", "odd", "42 STREET", "43 STREET", "4221-23", "17 AVENUE", "1", "1", "3", "3", "18", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 2888, "2888", null, null, null, 0, null, null, "2888", [ null, "40.58924836400007", "-73.93593089599995", null, false, {
+    "point" : [ -73.93593089599995, 40.58924836400007 ]
+  } ], "1351", "7343", "FORD STREET", "odd", "AVENUE Z", "VOORHIES AVENUE", "2622", "FORD STREET", "1", "4", "3", "2", "38", "MO", "Brooklyn", "11235", "42", "315" ]
+, [ 4575, "4575", null, null, null, 0, null, null, "4575", [ null, "40.60861377300006", "-73.9374789709999", null, false, {
+    "point" : [ -73.9374789709999, 40.60861377300006 ]
+  } ], "2786", "13140", "MARINE PARKWAY", "odd", "FILLMORE AVENUE", "AVENUE R", "3001", "FILLMORE AVENUE", "3", "2", "3", "2", "39", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 4590, "4590", null, null, null, 0, null, null, "4590", [ null, "40.609676698000044", "-73.93875653499992", null, false, {
+    "point" : [ -73.93875653499992, 40.609676698000044 ]
+  } ], "2808", "13202", "MARINE PARKWAY", "odd", "FILLMORE AVENUE", "AVENUE R", "1825", "MARINE PARKWAY", "1", "1", "3", "2", "65", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 5773, "5773", null, null, null, 0, null, null, "5773", [ null, "40.684867791000045", "-73.87491098399994", null, false, {
+    "point" : [ -73.87491098399994, 40.684867791000045 ]
+  } ], "5356", "24854", "RIDGEWOOD AVENUE", "even", "EUCLID AVENUE", "CHESTNUT STREET", "380", "RIDGEWOOD AVENUE", "1", "1", "1", "2", "14", "MO", "Brooklyn", "11208", "32", "305" ]
+, [ 7515, "7515", null, null, null, 0, null, null, "7515", [ null, "40.64475132800004", "-73.9856847229999", null, false, {
+    "point" : [ -73.9856847229999, 40.64475132800004 ]
+  } ], "5159", "24046", "MINNA STREET", "odd", "CHESTER AVENUE", "36 STREET", "151", "MINNA STREET", "1", "1", "1", "1", "9", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 7620, "7620", null, null, null, 0, null, null, "7620", [ null, "40.624162907000084", "-73.98772806999995", null, false, {
+    "point" : [ -73.98772806999995, 40.624162907000084 ]
+  } ], "6939", "30418", "58 STREET", "even", "17 AVENUE", "18 AVENUE", "1716", "58 STREET", "1", "1", "1", "2", "35", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 7901, "7901", null, null, null, 0, null, null, "7901", [ null, "40.63546538500009", "-73.95336811499993", null, false, {
+    "point" : [ -73.95336811499993, 40.63546538500009 ]
+  } ], "5345", "24814", "BEDFORD AVENUE", "even", "FARRAGUT ROAD", "GLENWOOD ROAD", "2744", "BEDFORD AVENUE", "1", "1", "3", "2", "2", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8271, "8271", null, null, null, 0, null, null, "8271", [ null, "40.63295000900007", "-73.95748430399993", null, false, {
+    "point" : [ -73.95748430399993, 40.63295000900007 ]
+  } ], "5848", "25935", "EAST   21 STREET", "even", "FARRAGUT ROAD", "GLENWOOD ROAD", "2017", "GLENWOOD ROAD", "1", "2", "3", "1", "13", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8274, "8274", null, null, null, 0, null, null, "8274", [ null, "40.636010370000065", "-73.95727338099994", null, false, {
+    "point" : [ -73.95727338099994, 40.636010370000065 ]
+  } ], "5851", "25943", "EAST   21 STREET", "odd", "FOSTER AVENUE", "FARRAGUT ROAD", "725", "EAST   21 STREET", "1", "1", "3", "1", "12", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8343, "8343", null, null, null, 0, null, null, "8343", [ null, "40.635019432000036", "-73.95708666299993", null, false, {
+    "point" : [ -73.95708666299993, 40.635019432000036 ]
+  } ], "5920", "26010", "EAST   21 STREET", "odd", "FARRAGUT ROAD", "GLENWOOD ROAD", "749", "EAST   21 STREET", "3", "1", "3", "1", "16", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8345, "8345", null, null, null, 0, null, null, "8345", [ null, "40.63303475100008", "-73.95655471999993", null, false, {
+    "point" : [ -73.95655471999993, 40.63303475100008 ]
+  } ], "5923", "26016", "EAST   21 STREET", "odd", "GLENWOOD ROAD", "CAMPUS ROAD", "2104", "GLENWOOD ROAD", "4", "2", "3", "2", "26", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8367, "8367", null, null, null, 0, null, null, "8367", [ null, "40.634023004000085", "-73.95689995299995", null, false, {
+    "point" : [ -73.95689995299995, 40.634023004000085 ]
+  } ], "5950", "26046", "EAST   21 STREET", "odd", "FARRAGUT ROAD", "GLENWOOD ROAD", "805", "EAST   21 STREET", "2", "1", "3", "1", "5", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8467, "8467", null, null, null, 0, null, null, "8467", [ null, "40.63210701200006", "-73.95655532399991", null, false, {
+    "point" : [ -73.95655532399991, 40.63210701200006 ]
+  } ], "6209", "27304", "EAST   21 STREET", "even", "GLENWOOD ROAD", "CAMPUS ROAD", "880", "EAST   21 STREET", "3", "1", "3", "2", "2", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8474, "8474", null, null, null, 0, null, null, "8474", [ null, "40.631645854000055", "-73.95646555399992", null, false, {
+    "point" : [ -73.95646555399992, 40.631645854000055 ]
+  } ], "6217", "27311", "EAST   21 STREET", "even", "GLENWOOD ROAD", "CAMPUS ROAD", "906", "EAST   21 STREET", "1", "1", "3", "1", "3", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8516, "8516", null, null, null, 0, null, null, "8516", [ null, "40.63314968800006", "-73.95565393399994", null, false, {
+    "point" : [ -73.95565393399994, 40.63314968800006 ]
+  } ], "6385", "28437", "EAST   22 STREET", "odd", "FARRAGUT ROAD", "GLENWOOD ROAD", "2201", "GLENWOOD ROAD", "3", "2", "3", "2", "12", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 8609, "8609", null, null, null, 0, null, null, "8609", [ null, "40.63317976600007", "-73.95535848199995", null, false, {
+    "point" : [ -73.95535848199995, 40.63317976600007 ]
+  } ], "6678", "29234", "GLENWOOD ROAD", "odd", "EAST   22 STREET", "EAST   23 STREET", "2245", "GLENWOOD ROAD", "1", "6", "3", "1", "18", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 9558, "9558", null, null, null, 0, null, null, "9558", [ null, "40.64516888700007", "-73.93259442199991", null, false, {
+    "point" : [ -73.93259442199991, 40.64516888700007 ]
+  } ], "9322", "38570", "CORTELYOU ROAD", "even", "SCHENECTADY AVENUE", "EAST   48 STREET", "1137", "SCHENECTADY AVENUE", "0", "2", "3", "2", "15", "MO", "Brooklyn", "11203", "44", "317" ]
+, [ 9871, "9871", null, null, null, 0, null, null, "9871", [ null, "40.631962858000065", "-73.90430073699991", null, false, {
+    "point" : [ -73.90430073699991, 40.631962858000065 ]
+  } ], "8230", "34519", "EAST   84 STREET", "odd", "AVENUE L", "AVENUE M", "1225", "EAST   84 STREET", "1", "1", "3", "2", "8", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 10920, "10920", null, null, null, 0, null, null, "10920", [ null, "40.67862061000005", "-73.97755111499993", null, false, {
+    "point" : [ -73.97755111499993, 40.67862061000005 ]
+  } ], "11704", "46624", "STERLING PLACE", "odd", "6 AVENUE", "5 AVENUE", "31", "STERLING PLACE", "1", "1", "3", "1", "24", "MO", "Brooklyn", "11217", "33", "306" ]
+, [ 11673, "11673", null, null, null, 0, null, null, "11673", [ null, "40.62438410100009", "-74.02027901699995", null, false, {
+    "point" : [ -74.02027901699995, 40.62438410100009 ]
+  } ], "10374", "42155", "7 AVENUE", "even", "80 STREET", "79 STREET", "648", "79 STREET", "3", "3", "3", "1", "23", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 11677, "11677", null, null, null, 0, null, null, "11677", [ null, "40.62438410100009", "-74.02027901699995", null, false, {
+    "point" : [ -74.02027901699995, 40.62438410100009 ]
+  } ], "10378", "42154", "7 AVENUE", "even", "80 STREET", "79 STREET", "648", "79 STREET", "2", "2", "3", "2", "15", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 12405, "12405", null, null, null, 0, null, null, "12405", [ null, "40.62340262300006", "-73.98794434799993", null, false, {
+    "point" : [ -73.98794434799993, 40.62340262300006 ]
+  } ], "10059", "40861", "59 STREET", "odd", "17 AVENUE", "18 AVENUE", "1739", "59 STREET", "1", "1", "3", "2", "6", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 12740, "12740", null, null, null, 0, null, null, "12740", [ null, "40.63843920800008", "-74.00079037899991", null, false, {
+    "point" : [ -74.00079037899991, 40.63843920800008 ]
+  } ], "14034", "53436", "51 STREET", "even", "9 AVENUE", "10 AVENUE", "962", "51 STREET", "1", "1", "2", "2", "14", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 13151, "13151", null, null, null, 0, null, null, "13151", [ null, "40.63444146000006", "-73.96935133999995", null, false, {
+    "point" : [ -73.96935133999995, 40.63444146000006 ]
+  } ], "14962", "233200", "18 AVENUE", "odd", "EAST    8 STREET", "CONEY ISLAND AVENUE", "3765", "18 AVENUE", "3", "1", "3", "2", "1", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 13157, "13157", null, null, null, 0, null, null, "13157", [ null, "40.634386594000034", "-73.96946305499995", null, false, {
+    "point" : [ -73.96946305499995, 40.634386594000034 ]
+  } ], "14974", "233197", "18 AVENUE", "odd", "EAST    8 STREET", "CONEY ISLAND AVENUE", "3775", "18 AVENUE", "4", "1", "3", "2", "6", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 13414, "13414", null, null, null, 0, null, null, "13414", [ null, "40.60158499700009", "-73.94406483099993", null, false, {
+    "point" : [ -73.94406483099993, 40.60158499700009 ]
+  } ], "11037", "44476", "EAST   28 STREET", "odd", "AVENUE T", "AVENUE U", "2037", "EAST   28 STREET", "1", "1", "1", "2", "7", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 14093, "14093", null, null, null, 0, null, null, "14093", [ null, "40.59846205100007", "-73.94538540299993", null, false, {
+    "point" : [ -73.94538540299993, 40.59846205100007 ]
+  } ], "13836", "52937", "EAST   26 STREET", "even", "GRAVESEND NECK ROAD", "AVENUE V", "2164", "EAST   26 STREET", "1", "1", "1", "2", "3", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 14764, "14764", null, null, null, 0, null, null, "14764", [ null, "40.63484667200004", "-73.90990636899994", null, false, {
+    "point" : [ -73.90990636899994, 40.63484667200004 ]
+  } ], "12513", "48722", "EAST   82 STREET", "even", "AVENUE J", "AVENUE K", "8124", "AVENUE J", "1", "1", "3", "2", "13", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 14773, "14773", null, null, null, 0, null, null, "14773", [ null, "40.63484667200004", "-73.90990636899994", null, false, {
+    "point" : [ -73.90990636899994, 40.63484667200004 ]
+  } ], "12522", "48724", "EAST   82 STREET", "even", "AVENUE J", "AVENUE K", "8124", "AVENUE J", "2", "1", "3", "2", "12", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 15860, "15860", null, null, null, 0, null, null, "15860", [ null, "40.669210863000046", "-73.89035082799995", null, false, {
+    "point" : [ -73.89035082799995, 40.669210863000046 ]
+  } ], "17770", "69227", "MILLER AVENUE", "even", "SUTTER AVENUE", "BLAKE AVENUE", "468", "MILLER AVENUE", "1", "1", "1", "2", "15", "MO", "Brooklyn", "11207", "32", "305" ]
+, [ 17447, "17447", null, null, null, 0, null, null, "17447", [ null, "40.63919948800009", "-73.99748268099995", null, false, {
+    "point" : [ -73.99748268099995, 40.63919948800009 ]
+  } ], "17385", "67469", "48 STREET", "odd", "10 AVENUE", "FT HAMILTON PARKWAY", "1029", "48 STREET", "1", "1", "3", "2", "4", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 17869, "17869", null, null, null, 0, null, null, "17869", [ null, "40.616699579000056", "-73.96169092899993", null, false, {
+    "point" : [ -73.96169092899993, 40.616699579000056 ]
+  } ], "15836", "61646", "ELM AVENUE", "even", "EAST   12 STREET", "EAST   13 STREET", "1340", "EAST   13 STREET", "3", "2", "3", "2", "7", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 17872, "17872", null, null, null, 0, null, null, "17872", [ null, "40.616699579000056", "-73.96169092899993", null, false, {
+    "point" : [ -73.96169092899993, 40.616699579000056 ]
+  } ], "15844", "61650", "ELM AVENUE", "even", "EAST   12 STREET", "EAST   13 STREET", "1340", "EAST   13 STREET", "4", "2", "3", "2", "5", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 18174, "18174", null, null, null, 0, null, null, "18174", [ null, "40.61419633300005", "-73.9542041869999", null, false, {
+    "point" : [ -73.9542041869999, 40.61419633300005 ]
+  } ], "17610", "68808", "OCEAN AVENUE", "odd", "AVENUE N", "AVENUE O", "1967", "OCEAN AVENUE", "1", "1", "3", "2", "4", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 19099, "19099", null, null, null, 0, null, null, "19099", [ null, "40.67089053300003", "-73.92018927099991", null, false, {
+    "point" : [ -73.92018927099991, 40.67089053300003 ]
+  } ], "15662", "60445", "STERLING PLACE", "even", "HOWARD AVENUE", "SARATOGA AVENUE", "1764", "STERLING PLACE", "2", "1", "3", "2", "18", "MO", "Brooklyn", "11233", "43", "316" ]
+, [ 21935, "21935", null, null, null, 0, null, null, "21935", [ null, "40.66918320600007", "-73.99155528099993", null, false, {
+    "point" : [ -73.99155528099993, 40.66918320600007 ]
+  } ], "23215", "90305", "12 STREET", "even", "3 AVENUE", "4 AVENUE", "174", "12 STREET", "1", "1", "3", "2", "9", "MO", "Brooklyn", "11215", "33", "306" ]
+, [ 22106, "22106", null, null, null, 0, null, null, "22106", [ null, "40.63798019600006", "-74.0120788879999", null, false, {
+    "point" : [ -74.0120788879999, 40.63798019600006 ]
+  } ], "21267", "83973", "59 STREET", "odd", "6 AVENUE", "7 AVENUE", "661", "59 STREET", "2", "1", "2", "2", "7", "MO", "Brooklyn", "11220", "34", "307" ]
+, [ 22452, "22452", null, null, null, 0, null, null, "22452", [ null, "40.62190487100008", "-74.0346331639999", null, false, {
+    "point" : [ -74.0346331639999, 40.62190487100008 ]
+  } ], "22314", "87844", "89 STREET", "even", "RIDGE BOULEVARD", "3 AVENUE", "8901", "RIDGE BOULEVARD", "1", "2", "3", "1", "8", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 23522, "23522", null, null, null, 0, null, null, "23522", [ null, "40.61230695800003", "-73.95186436799992", null, false, {
+    "point" : [ -73.95186436799992, 40.61230695800003 ]
+  } ], "20504", "80644", "EAST   22 STREET", "even", "AVENUE O", "KINGS HIGHWAY", "1620", "EAST   22 STREET", "1", "1", "3", "1", "16", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 23608, "23608", null, null, null, 0, null, null, "23608", [ null, "40.61430888700005", "-73.95424733199991", null, false, {
+    "point" : [ -73.95424733199991, 40.61430888700005 ]
+  } ], "22248", "87635", "OCEAN AVENUE", "even", "AVENUE N", "AVENUE O", "1962", "OCEAN AVENUE", "1", "1", "3", "1", "9", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 23611, "23611", null, null, null, 0, null, null, "23611", [ null, "40.61430888700005", "-73.95424733199991", null, false, {
+    "point" : [ -73.95424733199991, 40.61430888700005 ]
+  } ], "22251", "87634", "OCEAN AVENUE", "even", "AVENUE N", "AVENUE O", "1962", "OCEAN AVENUE", "2", "1", "3", "1", "11", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 24843, "24843", null, null, null, 0, null, null, "24843", [ null, "40.63334133600006", "-73.93215240899991", null, false, {
+    "point" : [ -73.93215240899991, 40.63334133600006 ]
+  } ], "23288", "90993", "SCHENECTADY AVENUE", "even", "GLENWOOD ROAD", "GLENDALE COURT", "4623", "GLENDALE COURT", "1", "3", "1", "2", "32", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 24850, "24850", null, null, null, 0, null, null, "24850", [ null, "40.634002390000035", "-73.93140954199993", null, false, {
+    "point" : [ -73.93140954199993, 40.634002390000035 ]
+  } ], "23295", "91012", "SCHENECTADY AVENUE", "even", "GLENWOOD ROAD", "AVENUE H", "1575", "SCHENECTADY AVENUE", "1", "1", "1", "2", "13", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 24861, "24861", null, null, null, 0, null, null, "24861", [ null, "40.63330242200004", "-73.9313309989999", null, false, {
+    "point" : [ -73.9313309989999, 40.63330242200004 ]
+  } ], "23307", "91038", "SCHENECTADY AVENUE", "even", "GLENWOOD ROAD", "AVENUE H", "1607", "SCHENECTADY AVENUE", "2", "1", "3", "3", "10", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 25787, "25787", null, null, null, 0, null, null, "25787", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26332", "104821", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "2", "4", "3", "2", "6", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25791, "25791", null, null, null, 0, null, null, "25791", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26336", "104817", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "1", "4", "3", "2", "7", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25793, "25793", null, null, null, 0, null, null, "25793", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26338", "104836", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "5", "4", "3", "2", "5", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25794, "25794", null, null, null, 0, null, null, "25794", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26339", "104842", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "7", "4", "3", "2", "5", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25795, "25795", null, null, null, 0, null, null, "25795", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26340", "104847", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "9", "4", "3", "1", "4", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25796, "25796", null, null, null, 0, null, null, "25796", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26341", "104833", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "4", "4", "3", "2", "7", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25797, "25797", null, null, null, 0, null, null, "25797", [ null, "40.64791781900004", "-73.97920109899991", null, false, {
+    "point" : [ -73.97920109899991, 40.64791781900004 ]
+  } ], "26342", "104840", "EAST    2 STREET", "even", "FT HAMILTON PARKWAY", "CATON AVENUE", "155", "EAST    2 STREET", "6", "4", "3", "2", "6", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25802, "25802", null, null, null, 0, null, null, "25802", [ null, "40.64826881100004", "-73.9773955579999", null, false, {
+    "point" : [ -73.9773955579999, 40.64826881100004 ]
+  } ], "26351", "104868", "EAST    3 STREET", "odd", "FT HAMILTON PARKWAY", "CATON AVENUE", "170", "EAST    4 STREET", "2", "3", "3", "1", "15", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 25804, "25804", null, null, null, 0, null, null, "25804", [ null, "40.64756351900007", "-73.97800120499994", null, false, {
+    "point" : [ -73.97800120499994, 40.64756351900007 ]
+  } ], "26356", "104889", "CATON AVENUE", "odd", "EAST    3 STREET", "EAST    4 STREET", "309", "CATON AVENUE", "1", "1", "3", "1", "38", "MO", "Brooklyn", "11218", "34", "307" ]
+, [ 27281, "27281", null, null, null, 0, null, null, "27281", [ null, "40.63836674200007", "-73.98406468699994", null, false, {
+    "point" : [ -73.98406468699994, 40.63836674200007 ]
+  } ], "29090", "114258", "40 STREET", "even", "15 AVENUE", "14 AVENUE", "1418", "40 STREET", "2", "1", "3", "2", "22", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 27371, "27371", null, null, null, 0, null, null, "27371", [ null, "40.64163166600008", "-73.97613665199992", null, false, {
+    "point" : [ -73.97613665199992, 40.64163166600008 ]
+  } ], "29356", "114782", "EAST    3 STREET", "even", "BEVERLY ROAD", "AVENUE C", "434", "EAST    4 STREET", "1", "1", "3", "2", "6", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 27488, "27488", null, null, null, 0, null, null, "27488", [ null, "40.63886384400007", "-73.9863669799999", null, false, {
+    "point" : [ -73.9863669799999, 40.63886384400007 ]
+  } ], "29706", "115738", "41 STREET", "even", "13 AVENUE", "14 AVENUE", "1349", "41 STREET", "1", "1", "1", "2", "13", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 27518, "27518", null, null, null, 0, null, null, "27518", [ null, "40.638078859000075", "-73.9865725169999", null, false, {
+    "point" : [ -73.9865725169999, 40.638078859000075 ]
+  } ], "29736", "115879", "42 STREET", "odd", "13 AVENUE", "14 AVENUE", "1373", "42 STREET", "1", "1", "3", "2", "16", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 27524, "27524", null, null, null, 0, null, null, "27524", [ null, "40.638235346000045", "-73.98686794199995", null, false, {
+    "point" : [ -73.98686794199995, 40.638235346000045 ]
+  } ], "29742", "115893", "42 STREET", "even", "13 AVENUE", "14 AVENUE", "1354", "42 STREET", "2", "1", "3", "2", "4", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 30922, "30922", null, null, null, 0, null, null, "30922", [ null, "40.65879497700007", "-73.97702075599994", null, false, {
+    "point" : [ -73.97702075599994, 40.65879497700007 ]
+  } ], "30769", "119442", "16 STREET", "odd", "10 AVENUE", "11 AVENUE", "555", "16 STREET", "1", "1", "1", "1", "13", "MO", "Brooklyn", "11215", "34", "307" ]
+, [ 31574, "31574", null, null, null, 0, null, null, "31574", [ null, "40.67626775200006", "-73.93837813199991", null, false, {
+    "point" : [ -73.93837813199991, 40.67626775200006 ]
+  } ], "33295", "128385", "DEAN STREET", "odd", "ALBANY AVENUE", "TROY AVENUE", "1503", "DEAN STREET", "1", "1", "3", "2", "26", "MO", "Brooklyn", "11213", "35", "308" ]
+, [ 32205, "32205", null, null, null, 0, null, null, "32205", [ null, "40.63099440600007", "-74.02910049399992", null, false, {
+    "point" : [ -74.02910049399992, 40.63099440600007 ]
+  } ], "34389", "132590", "76 STREET", "even", "RIDGE BOULEVARD", "3 AVENUE", "266", "76 STREET", "1", "1", "1", "1", "8", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 32517, "32517", null, null, null, 0, null, null, "32517", [ null, "40.63787587600007", "-73.98775076999993", null, false, {
+    "point" : [ -73.98775076999993, 40.63787587600007 ]
+  } ], "30155", "117619", "43 STREET", "odd", "13 AVENUE", "14 AVENUE", "1335", "43 STREET", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 33953, "33953", null, null, null, 0, null, null, "33953", [ null, "40.64346027100004", "-73.94557558699995", null, false, {
+    "point" : [ -73.94557558699995, 40.64346027100004 ]
+  } ], "32165", "125192", "EAST   34 STREET", "even", "CLARENDON ROAD", "CORTELYOU ROAD", "3323", "CLARENDON ROAD", "1", "2", "3", "2", "20", "MO", "Brooklyn", "11203", "44", "317" ]
+, [ 33985, "33985", null, null, null, 0, null, null, "33985", [ null, "40.643978290000064", "-73.94402208699995", null, false, {
+    "point" : [ -73.94402208699995, 40.643978290000064 ]
+  } ], "32559", "126004", "EAST   35 STREET", "even", "CLARENDON ROAD", "CORTELYOU ROAD", "456", "EAST   35 STREET", "2", "1", "1", "2", "35", "MO", "Brooklyn", "11203", "44", "317" ]
+, [ 36233, "36233", null, null, null, 0, null, null, "36233", [ null, "40.64559210400006", "-74.00205889999995", null, false, {
+    "point" : [ -74.00205889999995, 40.64559210400006 ]
+  } ], "35577", "136265", "44 STREET", "even", "7 AVENUE", "8 AVENUE", "702", "44 STREET", "1", "1", "3", "3", "15", "MO", "Brooklyn", "11220", "34", "307" ]
+, [ 36412, "36412", null, null, null, 0, null, null, "36412", [ null, "40.676978999000085", "-73.96550666799993", null, false, {
+    "point" : [ -73.96550666799993, 40.676978999000085 ]
+  } ], "36187", "138205", "PROSPECT PLACE", "odd", "UNDERHILL AVENUE", "WASHINGTON AVENUE", "323", "PROSPECT PLACE", "1", "2", "3", "1", "15", "MO", "Brooklyn", "11238", "35", "308" ]
+, [ 36413, "36413", null, null, null, 0, null, null, "36413", [ null, "40.676978999000085", "-73.96550666799993", null, false, {
+    "point" : [ -73.96550666799993, 40.676978999000085 ]
+  } ], "36189", "138213", "PROSPECT PLACE", "odd", "UNDERHILL AVENUE", "WASHINGTON AVENUE", "323", "PROSPECT PLACE", "2", "2", "3", "1", "15", "MO", "Brooklyn", "11238", "35", "308" ]
+, [ 37687, "37687", null, null, null, 0, null, null, "37687", [ null, "40.64467117000004", "-73.9817425519999", null, false, {
+    "point" : [ -73.9817425519999, 40.64467117000004 ]
+  } ], "38038", "146594", "TEHAMA STREET", "odd", "DAHILL ROAD", "CHESTER AVENUE", "19", "TEHAMA STREET", "1", "1", "3", "2", "11", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 37688, "37688", null, null, null, 0, null, null, "37688", [ null, "40.644624528000065", "-73.9818650819999", null, false, {
+    "point" : [ -73.9818650819999, 40.644624528000065 ]
+  } ], "38039", "146600", "TEHAMA STREET", "odd", "DAHILL ROAD", "CHESTER AVENUE", "25", "TEHAMA STREET", "1", "1", "3", "1", "7", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 38487, "38487", null, null, null, 0, null, null, "38487", [ null, "40.60592444100007", "-73.95657956299993", null, false, {
+    "point" : [ -73.95657956299993, 40.60592444100007 ]
+  } ], "39259", "150469", "AVENUE R", "even", "EAST   17 STREET", "EAST   16 STREET", "1610", "AVENUE R", "1", "1", "3", "2", "11", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 38985, "38985", null, null, null, 0, null, null, "38985", [ null, "40.63970258000006", "-73.9003801689999", null, false, {
+    "point" : [ -73.9003801689999, 40.63970258000006 ]
+  } ], "35083", "134593", "EAST   94 STREET", "even", "AVENUE J", "AVENUE K", "1284", "EAST   94 STREET", "1", "1", "3", "2", "15", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39280, "39280", null, null, null, 0, null, null, "39280", [ null, "40.63726379000008", "-73.90519750499993", null, false, {
+    "point" : [ -73.90519750499993, 40.63726379000008 ]
+  } ], "36031", "137843", "CHURCH LANE", "even", "EAST   88 STREET", "EAST   89 STREET", "1019", "EAST   88 STREET", "1", "7", "3", "2", "4", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39281, "39281", null, null, null, 0, null, null, "39281", [ null, "40.63726379000008", "-73.90519750499993", null, false, {
+    "point" : [ -73.90519750499993, 40.63726379000008 ]
+  } ], "36032", "137849", "CHURCH LANE", "even", "EAST   88 STREET", "EAST   89 STREET", "1019", "EAST   88 STREET", "2", "7", "3", "2", "4", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39295, "39295", null, null, null, 0, null, null, "39295", [ null, "40.63731941000009", "-73.90608017699992", null, false, {
+    "point" : [ -73.90608017699992, 40.63731941000009 ]
+  } ], "36050", "137890", "CHURCH LANE", "odd", "EAST   87 STREET", "EAST   88 STREET", "8726", "AVENUE J", "4", "3", "1", "2", "6", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39298, "39298", null, null, null, 0, null, null, "39298", [ null, "40.636844462000056", "-73.9059583419999", null, false, {
+    "point" : [ -73.9059583419999, 40.636844462000056 ]
+  } ], "36053", "137907", "CHURCH LANE", "odd", "EAST   86 STREET", "EAST   87 STREET", "1018", "EAST   87 STREET", "1", "2", "3", "2", "12", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39319, "39319", null, null, null, 0, null, null, "39319", [ null, "40.63635448000008", "-73.90760561099995", null, false, {
+    "point" : [ -73.90760561099995, 40.63635448000008 ]
+  } ], "36077", "137966", "AVENUE J", "odd", "EAST   85 STREET", "EAST   86 STREET", "8515", "AVENUE J", "1", "2", "3", "2", "16", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39361, "39361", null, null, null, 0, null, null, "39361", [ null, "40.63773530600008", "-73.9044870269999", null, false, {
+    "point" : [ -73.9044870269999, 40.63773530600008 ]
+  } ], "36133", "138081", "EAST   89 STREET", "odd", "CHURCH LANE", "AVENUE J", "1017", "EAST   89 STREET", "4", "1", "3", "2", "3", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 39768, "39768", null, null, null, 0, null, null, "39768", [ null, "40.63030532800008", "-73.93169435099992", null, false, {
+    "point" : [ -73.93169435099992, 40.63030532800008 ]
+  } ], "38500", "147704", "SCHENECTADY AVENUE", "even", "KINGS HIGHWAY", "AVENUE I", "4623", "AVENUE I", "1", "2", "3", "2", "20", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 40121, "40121", null, null, null, 0, null, null, "40121", [ null, "40.72657656500007", "-73.94370015699991", null, false, {
+    "point" : [ -73.94370015699991, 40.72657656500007 ]
+  } ], "42426", "160576", "NORTH HENRY STREET", "even", "NORMAN AVENUE", "NASSAU AVENUE", "210", "NORTH HENRY STREET", "1", "1", "1", "1", "31", "MO", "Brooklyn", "11222", "28", "301" ]
+, [ 40425, "40425", null, null, null, 0, null, null, "40425", [ null, "40.70279690600006", "-73.9589509299999", null, false, {
+    "point" : [ -73.9589509299999, 40.70279690600006 ]
+  } ], "44155", "166684", "HEWES STREET", "odd", "LEE AVENUE", "BEDFORD AVENUE", "135", "HEWES STREET", "2", "1", "2", "2", "6", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 42200, "42200", null, null, null, 0, null, null, "42200", [ null, "40.665537156000084", "-73.9531740729999", null, false, {
+    "point" : [ -73.9531740729999, 40.665537156000084 ]
+  } ], "43580", "164413", "MONTGOMERY STREET", "odd", "DEARBORN COURT", "ROGERS AVENUE", "345", "MONTGOMERY STREET", "4", "1", "2", "1", "9", "MO", "Brooklyn", "11225", "36", "309" ]
+, [ 42206, "42206", null, null, null, 0, null, null, "42206", [ null, "40.665537156000084", "-73.9531740729999", null, false, {
+    "point" : [ -73.9531740729999, 40.665537156000084 ]
+  } ], "43586", "164414", "MONTGOMERY STREET", "odd", "DEARBORN COURT", "ROGERS AVENUE", "345", "MONTGOMERY STREET", "5", "1", "2", "2", "23", "MO", "Brooklyn", "11225", "36", "309" ]
+, [ 42842, "42842", null, null, null, 0, null, null, "42842", [ null, "40.60660221100005", "-73.99391491499995", null, false, {
+    "point" : [ -73.99391491499995, 40.60660221100005 ]
+  } ], "42778", "166994", "81 STREET", "even", "20 AVENUE", "21 AVENUE", "2068", "81 STREET", "2", "1", "3", "1", "19", "MO", "Brooklyn", "11214", "38", "311" ]
+, [ 43000, "43000", null, null, null, 0, null, null, "43000", [ null, "40.60957210000004", "-73.99430361299994", null, false, {
+    "point" : [ -73.99430361299994, 40.60957210000004 ]
+  } ], "43791", "165503", "78 STREET", "even", "19 AVENUE", "20 AVENUE", "1972", "78 STREET", "2", "1", "1", "2", "7", "MO", "Brooklyn", "11214", "38", "311" ]
+, [ 43085, "43085", null, null, null, 0, null, null, "43085", [ null, "40.60909184900004", "-73.99648978999994", null, false, {
+    "point" : [ -73.99648978999994, 40.60909184900004 ]
+  } ], "44001", "165888", "80 STREET", "odd", "19 AVENUE", "20 AVENUE", "1907", "80 STREET", "1", "1", "3", "2", "19", "MO", "Brooklyn", "11214", "38", "311" ]
+, [ 44649, "44649", null, null, null, 0, null, null, "44649", [ null, "40.60887563600005", "-73.90671444399993", null, false, {
+    "point" : [ -73.90671444399993, 40.60887563600005 ]
+  } ], "42163", "159887", "GAYLORD DRIVE SOUTH", "even", "EAST   66 STREET", "INDIANA WALK", "97", "GAYLORD DRIVE SOUTH", "6", "4", "3", "2", "13", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 44720, "44720", null, null, null, 0, null, null, "44720", [ null, "40.629736724000054", "-73.93097079899991", null, false, {
+    "point" : [ -73.93097079899991, 40.629736724000054 ]
+  } ], "43270", "162962", "SCHENECTADY AVENUE", "even", "AVENUE I", "AVENUE J", "1742", "SCHENECTADY AVENUE", "1", "1", "1", "1", "27", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 46276, "46276", null, null, null, 0, null, null, "46276", [ null, "40.66337031200004", "-73.88236209799993", null, false, {
+    "point" : [ -73.88236209799993, 40.66337031200004 ]
+  } ], "47942", "178424", "WARWICK STREET", "odd", "LINDEN BOULEVARD", "HEGEMAN AVENUE", "788", "WARWICK STREET", "1", "4", "3", "2", "26", "MO", "Brooklyn", "11207", "32", "305" ]
+, [ 46323, "46323", null, null, null, 0, null, null, "46323", [ null, "40.68235407700007", "-73.89459452599993", null, false, {
+    "point" : [ -73.89459452599993, 40.68235407700007 ]
+  } ], "47996", "178566", "CROSBY AVENUE", "even", "MILLER PLACE", "BULWER PLACE", "32", "CROSBY AVENUE", "1", "1", "3", "2", "2", "MO", "Brooklyn", "11207", "32", "305" ]
+, [ 48288, "48288", null, null, null, 0, null, null, "48288", [ null, "40.58487048400008", "-73.98261935499994", null, false, {
+    "point" : [ -73.98261935499994, 40.58487048400008 ]
+  } ], "49583", "182364", "AVENUE Z", "odd", "WEST   13 STREET", "STILLWELL AVENUE", "297", "AVENUE Z", "1", "1", "1", "2", "19", "MO", "Brooklyn", "11223", "40", "313" ]
+, [ 48880, "48880", null, null, null, 0, null, null, "48880", [ null, "40.60663101800009", "-73.95978075599993", null, false, {
+    "point" : [ -73.95978075599993, 40.60663101800009 ]
+  } ], "46784", "174066", "EAST   13 STREET", "even", "KINGS HIGHWAY", "AVENUE R", "1760", "EAST   13 STREET", "1", "1", "3", "2", "28", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 51017, "51017", null, null, null, 0, null, null, "51017", [ null, "40.68933019700006", "-73.97504503199991", null, false, {
+    "point" : [ -73.97504503199991, 40.68933019700006 ]
+  } ], "54473", "199381", "SOUTH PORTLAND AVENUE", "even", "LAFAYETTE AVENUE", "DE KALB AVENUE", "2", "SOUTH PORTLAND AVENUE", "2", "1", "3", "1", "8", "MO", "Brooklyn", "11217", "29", "302" ]
+, [ 51518, "51518", null, null, null, 0, null, null, "51518", [ null, "40.681117559000086", "-73.99257050199992", null, false, {
+    "point" : [ -73.99257050199992, 40.681117559000086 ]
+  } ], "51838", "191585", "UNION STREET", "even", "SMITH STREET", "HOYT STREET", "370-372", "UNION STREET", "4", "1", "3", "1", "19", "MO", "Brooklyn", "11231", "33", "306" ]
+, [ 52991, "52991", null, null, null, 0, null, null, "52991", [ null, "40.61168229100008", "-73.9873341789999", null, false, {
+    "point" : [ -73.9873341789999, 40.61168229100008 ]
+  } ], "52935", "195352", "21 AVENUE", "even", "72 STREET", "71 STREET", "7110", "21 AVENUE", "2", "1", "3", "1", "24", "MO", "Brooklyn", "11204", "38", "311" ]
+, [ 53026, "53026", null, null, null, 0, null, null, "53026", [ null, "40.610337919000074", "-73.97433622799991", null, false, {
+    "point" : [ -73.97433622799991, 40.610337919000074 ]
+  } ], "53931", "198016", "DAHILL ROAD", "odd", "AVENUE O", "65 STREET", "1529", "DAHILL ROAD", "3", "1", "3", "1", "28", "MO", "Brooklyn", "11204", "38", "311" ]
+, [ 53509, "53509", null, null, null, 0, null, null, "53509", [ null, "40.62431301100008", "-73.9813374499999", null, false, {
+    "point" : [ -73.9813374499999, 40.62431301100008 ]
+  } ], "50796", "188215", "19 AVENUE", "odd", "53 STREET", "54 STREET", "5319", "19 AVENUE", "2", "1", "3", "1", "10", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 55185, "55185", null, null, null, 0, null, null, "55185", [ null, "40.72242939600005", "-73.94999543199992", null, false, {
+    "point" : [ -73.94999543199992, 40.72242939600005 ]
+  } ], "58816", "209445", "DRIGGS AVENUE", "even", "MANHATTAN AVENUE", "LEONARD STREET", "560", "MANHATTAN AVENUE", "2", "4", "2", "2", "2", "MO", "Brooklyn", "11222", "28", "301" ]
+, [ 56313, "56313", null, null, null, 0, null, null, "56313", [ null, "40.66777488400004", "-73.9886392489999", null, false, {
+    "point" : [ -73.9886392489999, 40.66777488400004 ]
+  } ], "59335", "210370", "12 STREET", "even", "4 AVENUE", "5 AVENUE", "264", "12 STREET", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11215", "33", "306" ]
+, [ 57856, "57856", null, null, null, 0, null, null, "57856", [ null, "40.627354628000035", "-73.98390880499994", null, false, {
+    "point" : [ -73.98390880499994, 40.627354628000035 ]
+  } ], "58408", "208891", "52 STREET", "odd", "17 AVENUE", "OLD NEW UTRECHT ROAD", "1735", "52 STREET", "1", "1", "3", "1", "14", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 58063, "58063", null, null, null, 0, null, null, "58063", [ null, "40.619181034000064", "-73.97172851899995", null, false, {
+    "point" : [ -73.97172851899995, 40.619181034000064 ]
+  } ], "59906", "211474", "EAST    4 STREET", "even", "AVENUE L", "dead end", "401", "AVENUE L", "3", "7", "3", "2", "4", "MO", "Brooklyn", "11230", "39", "312" ]
+, [ 58064, "58064", null, null, null, 0, null, null, "58064", [ null, "40.619181034000064", "-73.97172851899995", null, false, {
+    "point" : [ -73.97172851899995, 40.619181034000064 ]
+  } ], "59907", "211476", "EAST    4 STREET", "even", "AVENUE L", "dead end", "401", "AVENUE L", "5", "7", "3", "3", "7", "MO", "Brooklyn", "11230", "39", "312" ]
+, [ 61683, "61683", null, null, null, 0, null, null, "61683", [ null, "40.67893084900004", "-73.88007411599995", null, false, {
+    "point" : [ -73.88007411599995, 40.67893084900004 ]
+  } ], "64750", "225683", "ATKINS AVENUE", "even", "LIBERTY AVENUE", "ATLANTIC AVENUE", "9", "ATKINS AVENUE", "1", "3", "3", "2", "22", "MO", "Brooklyn", "11208", "32", "305" ]
+, [ 61695, "61695", null, null, null, 0, null, null, "61695", [ null, "40.677327484000045", "-73.87967681999993", null, false, {
+    "point" : [ -73.87967681999993, 40.677327484000045 ]
+  } ], "64762", "225691", "ATKINS AVENUE", "odd", "LIBERTY AVENUE", "ATLANTIC AVENUE", "77", "ATKINS AVENUE", "1", "1", "3", "2", "28", "MO", "Brooklyn", "11208", "32", "305" ]
+, [ 62288, "62288", null, null, null, 0, null, null, "62288", [ null, "40.61748063500005", "-74.02198786699995", null, false, {
+    "point" : [ -74.02198786699995, 40.61748063500005 ]
+  } ], "59971", "211713", "PARROTT PLACE", "even", "88 STREET", "90 STREET", "20", "PARROTT PLACE", "2", "4", "3", "2", "14", "MO", "Brooklyn", "11228", "37", "310" ]
+, [ 62842, "62842", null, null, null, 0, null, null, "62842", [ null, "40.62753840900007", "-73.9830729709999", null, false, {
+    "point" : [ -73.9830729709999, 40.62753840900007 ]
+  } ], "60254", "212758", "OLD NEW UTRECHT ROAD", "even", "51 STREET", "52 STREET", "5110", "OLD NEW UTRECHT ROAD", "2", "2", "3", "2", "48", "MO", "Brooklyn", "11204", "39", "312" ]
+, [ 65744, "65744", null, null, null, 0, null, null, "65744", [ null, "40.708540559000085", "-73.95587069499993", null, false, {
+    "point" : [ -73.95587069499993, 40.708540559000085 ]
+  } ], "68668", "245307", "SOUTH    5 STREET", "odd", "RODNEY STREET", "KEAP STREET", "323", "SOUTH    5 STREET", "1", "1", "1", "2", "14", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 65897, "65897", null, null, null, 0, null, null, "65897", [ null, "40.712182159000065", "-73.95407915599992", null, false, {
+    "point" : [ -73.95407915599992, 40.712182159000065 ]
+  } ], "68821", "245465", "RODNEY STREET", "odd", "GRAND STREET", "HOPE STREET", "422", "RODNEY STREET", "1", "7", "2", "2", "17", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 65901, "65901", null, null, null, 0, null, null, "65901", [ null, "40.712182159000065", "-73.95407915599992", null, false, {
+    "point" : [ -73.95407915599992, 40.712182159000065 ]
+  } ], "68825", "245466", "RODNEY STREET", "odd", "GRAND STREET", "HOPE STREET", "422", "RODNEY STREET", "2", "7", "2", "2", "15", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 66429, "66429", null, null, null, 0, null, null, "66429", [ null, "40.69105929500006", "-73.99607800299992", null, false, {
+    "point" : [ -73.99607800299992, 40.69105929500006 ]
+  } ], "69479", "247369", "HENRY STREET", "odd", "STATE STREET", "ATLANTIC AVENUE", "311", "HENRY STREET", "2", "1", "1", "2", "7", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 67501, "67501", null, null, null, 0, null, null, "67501", [ null, "40.66337031200004", "-73.88236209799993", null, false, {
+    "point" : [ -73.88236209799993, 40.66337031200004 ]
+  } ], "65615", "226595", "WARWICK STREET", "odd", "LINDEN BOULEVARD", "HEGEMAN AVENUE", "788", "WARWICK STREET", "1", "4", "3", "2", "26", "MO", "Brooklyn", "11207", "32", "305" ]
+, [ 68961, "68961", null, null, null, 0, null, null, "68961", [ null, "40.63643162100004", "-73.97007102999993", null, false, {
+    "point" : [ -73.97007102999993, 40.63643162100004 ]
+  } ], "67028", "233158", "DITMAS AVENUE", "odd", "EAST    9 STREET", "EAST    8 STREET", "812", "DITMAS AVENUE", "1", "4", "3", "2", "30", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 69028, "69028", null, null, null, 0, null, null, "69028", [ null, "40.63634321900008", "-73.96795970399995", null, false, {
+    "point" : [ -73.96795970399995, 40.63634321900008 ]
+  } ], "67244", "234224", "CONEY ISLAND AVENUE", "odd", "18 AVENUE", "DITMAS AVENUE", "860", "CONEY ISLAND AVENUE", "1", "9", "1", "3", "6", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 69218, "69218", null, null, null, 0, null, null, "69218", [ null, "40.64553032400005", "-73.9601536959999", null, false, {
+    "point" : [ -73.9601536959999, 40.64553032400005 ]
+  } ], "66007", "229536", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "708", "OCEAN AVENUE", "1", "1", "1", "1", "17", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 69219, "69219", null, null, null, 0, null, null, "69219", [ null, "40.64513230400007", "-73.96007826099992", null, false, {
+    "point" : [ -73.96007826099992, 40.64513230400007 ]
+  } ], "66008", "229539", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "726", "OCEAN AVENUE", "2", "1", "3", "2", "25", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 69223, "69223", null, null, null, 0, null, null, "69223", [ null, "40.64513230400007", "-73.96007826099992", null, false, {
+    "point" : [ -73.96007826099992, 40.64513230400007 ]
+  } ], "66012", "229538", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "726", "OCEAN AVENUE", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 69378, "69378", null, null, null, 0, null, null, "69378", [ null, "40.635651470000084", "-73.9677330479999", null, false, {
+    "point" : [ -73.9677330479999, 40.635651470000084 ]
+  } ], "67232", "234216", "CONEY ISLAND AVENUE", "odd", "18 AVENUE", "DITMAS AVENUE", "889", "CONEY ISLAND AVENUE", "1", "9", "3", "2", "0", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 69384, "69384", null, null, null, 0, null, null, "69384", [ null, "40.635651470000084", "-73.9677330479999", null, false, {
+    "point" : [ -73.9677330479999, 40.635651470000084 ]
+  } ], "67238", "234219", "CONEY ISLAND AVENUE", "odd", "18 AVENUE", "DITMAS AVENUE", "889", "CONEY ISLAND AVENUE", "4", "9", "3", "2", "0", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 69387, "69387", null, null, null, 0, null, null, "69387", [ null, "40.635651470000084", "-73.9677330479999", null, false, {
+    "point" : [ -73.9677330479999, 40.635651470000084 ]
+  } ], "67241", "234218", "CONEY ISLAND AVENUE", "odd", "18 AVENUE", "DITMAS AVENUE", "889", "CONEY ISLAND AVENUE", "3", "9", "3", "2", "0", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 71808, "71808", null, null, null, 0, null, null, "71808", [ null, "40.66774289400007", "-73.94460052599993", null, false, {
+    "point" : [ -73.94460052599993, 40.66774289400007 ]
+  } ], "70325", "249026", "PRESIDENT STREET", "even", "BROOKLYN AVENUE", "KINGSTON AVENUE", "1346", "PRESIDENT STREET", "2", "1", "3", "2", "11", "MO", "Brooklyn", "11213", "36", "309" ]
+, [ 71926, "71926", null, null, null, 0, null, null, "71926", [ null, "40.666900739000084", "-73.9456321589999", null, false, {
+    "point" : [ -73.9456321589999, 40.666900739000084 ]
+  } ], "70443", "249141", "BROOKLYN AVENUE", "even", "CARROLL STREET", "CROWN STREET", "1322", "CARROLL STREET", "1", "2", "3", "2", "40", "MO", "Brooklyn", "11213", "36", "309" ]
+, [ 71928, "71928", null, null, null, 0, null, null, "71928", [ null, "40.66578072700008", "-73.94533388999992", null, false, {
+    "point" : [ -73.94533388999992, 40.66578072700008 ]
+  } ], "70445", "249145", "BROOKLYN AVENUE", "even", "CARROLL STREET", "CROWN STREET", "374", "BROOKLYN AVENUE", "1", "1", "3", "2", "32", "MO", "Brooklyn", "11213", "36", "309" ]
+, [ 72159, "72159", null, null, null, 0, null, null, "72159", [ null, "40.66835605400007", "-73.96052216299995", null, false, {
+    "point" : [ -73.96052216299995, 40.66835605400007 ]
+  } ], "73535", "255537", "CARROLL STREET", "even", "WASHINGTON AVENUE", "FRANKLIN AVENUE", "934", "CARROLL STREET", "1", "1", "1", "3", "13", "MO", "Brooklyn", "11225", "36", "309" ]
+, [ 72987, "72987", null, null, null, 0, null, null, "72987", [ null, "40.628976281000064", "-74.03176554899994", null, false, {
+    "point" : [ -74.03176554899994, 40.628976281000064 ]
+  } ], "73153", "254782", "80 STREET", "odd", "RIDGE BOULEVARD", "COLONIAL ROAD", "7924", "RIDGE BOULEVARD", "1", "2", "1", "1", "22", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 74022, "74022", null, null, null, 0, null, null, "74022", [ null, "40.61620272500005", "-73.9853054379999", null, false, {
+    "point" : [ -73.9853054379999, 40.61620272500005 ]
+  } ], "72632", "254259", "65 STREET", "odd", "20 AVENUE", "21 AVENUE", "2015", "65 STREET", "1", "1", "3", "1", "18", "MO", "Brooklyn", "11204", "38", "311" ]
+, [ 74044, "74044", null, null, null, 0, null, null, "74044", [ null, "40.61940878300004", "-73.9864393929999", null, false, {
+    "point" : [ -73.9864393929999, 40.61940878300004 ]
+  } ], "72656", "254280", "63 STREET", "odd", "19 AVENUE", "20 AVENUE", "6221", "19 AVENUE", "2", "2", "3", "2", "7", "MO", "Brooklyn", "11204", "38", "311" ]
+, [ 74046, "74046", null, null, null, 0, null, null, "74046", [ null, "40.61940878300004", "-73.9864393929999", null, false, {
+    "point" : [ -73.9864393929999, 40.61940878300004 ]
+  } ], "72658", "254279", "63 STREET", "odd", "19 AVENUE", "20 AVENUE", "6221", "19 AVENUE", "1", "2", "3", "2", "9", "MO", "Brooklyn", "11204", "38", "311" ]
+, [ 74289, "74289", null, null, null, 0, null, null, "74289", [ null, "40.64089059400004", "-73.95725224099994", null, false, {
+    "point" : [ -73.95725224099994, 40.64089059400004 ]
+  } ], "69993", "247878", "EAST   22 STREET", "odd", "DEAD END", "DITMAS AVENUE", "451", "EAST   22 STREET", "1", "1", "3", "1", "20", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 74850, "74850", null, null, null, 0, null, null, "74850", [ null, "40.605469319000065", "-73.91012968099994", null, false, {
+    "point" : [ -73.91012968099994, 40.605469319000065 ]
+  } ], "74327", "259723", "56 DRIVE", "even", "WHITMAN DRIVE", "ARKANSAS DRIVE", "2345", "56 DRIVE", "2", "4", "1", "1", "3", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 74852, "74852", null, null, null, 0, null, null, "74852", [ null, "40.605469319000065", "-73.91012968099994", null, false, {
+    "point" : [ -73.91012968099994, 40.605469319000065 ]
+  } ], "74334", "259722", "56 DRIVE", "even", "WHITMAN DRIVE", "ARKANSAS DRIVE", "2345", "56 DRIVE", "1", "4", "1", "1", "3", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 74928, "74928", null, null, null, 0, null, null, "74928", [ null, "40.726204159000076", "-73.94553326999994", null, false, {
+    "point" : [ -73.94553326999994, 40.726204159000076 ]
+  } ], "78944", "268439", "HUMBOLDT STREET", "even", "NASSAU AVENUE", "NORMAN AVENUE", "714A", "HUMBOLDT STREET", "1", "1", "3", "2", "7", "MO", "Brooklyn", "11222", "28", "301" ]
+, [ 77503, "77503", null, null, null, 0, null, null, "77503", [ null, "40.646576157000084", "-73.96035487099994", null, false, {
+    "point" : [ -73.96035487099994, 40.646576157000084 ]
+  } ], "76660", "262713", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "666", "OCEAN AVENUE", "3", "1", "3", "2", "14", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77504, "77504", null, null, null, 0, null, null, "77504", [ null, "40.646576157000084", "-73.96035487099994", null, false, {
+    "point" : [ -73.96035487099994, 40.646576157000084 ]
+  } ], "76661", "262714", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "666", "OCEAN AVENUE", "4", "1", "3", "2", "15", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77512, "77512", null, null, null, 0, null, null, "77512", [ null, "40.64647733700008", "-73.9603333089999", null, false, {
+    "point" : [ -73.9603333089999, 40.64647733700008 ]
+  } ], "76669", "262715", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "672", "OCEAN AVENUE", "1", "1", "3", "1", "20", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77531, "77531", null, null, null, 0, null, null, "77531", [ null, "40.647308845000055", "-73.95986794899994", null, false, {
+    "point" : [ -73.95986794899994, 40.647308845000055 ]
+  } ], "76688", "262737", "ALBEMARLE ROAD", "even", "OCEAN AVENUE", "EAST   21 STREET", "2016", "ALBEMARLE ROAD", "1", "1", "3", "1", "18", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77566, "77566", null, null, null, 0, null, null, "77566", [ null, "40.64629837600006", "-73.95876947399995", null, false, {
+    "point" : [ -73.95876947399995, 40.64629837600006 ]
+  } ], "76724", "262777", "REGENT PLACE", "odd", "EAST   21 STREET", "FLATBUSH AVENUE", "2111", "REGENT PLACE", "1", "1", "3", "2", "20", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77567, "77567", null, null, null, 0, null, null, "77567", [ null, "40.64629837600006", "-73.95876947399995", null, false, {
+    "point" : [ -73.95876947399995, 40.64629837600006 ]
+  } ], "76725", "262778", "REGENT PLACE", "odd", "EAST   21 STREET", "FLATBUSH AVENUE", "2111", "REGENT PLACE", "2", "1", "3", "2", "5", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 77574, "77574", null, null, null, 0, null, null, "77574", [ null, "40.61640517400008", "-73.95243411999991", null, false, {
+    "point" : [ -73.95243411999991, 40.61640517400008 ]
+  } ], "79164", "269348", "OLEAN STREET", "odd", "EAST   22 STREET", "EAST   23 STREET", "2208", "AVENUE N", "2", "3", "2", "2", "18", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 77577, "77577", null, null, null, 0, null, null, "77577", [ null, "40.61640517400008", "-73.95243411999991", null, false, {
+    "point" : [ -73.95243411999991, 40.61640517400008 ]
+  } ], "79167", "269354", "OLEAN STREET", "odd", "EAST   22 STREET", "EAST   23 STREET", "2208", "AVENUE N", "8", "3", "2", "2", "17", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 77578, "77578", null, null, null, 0, null, null, "77578", [ null, "40.61593585600008", "-73.95253530899993", null, false, {
+    "point" : [ -73.95253530899993, 40.61593585600008 ]
+  } ], "79168", "269356", "OLEAN STREET", "even", "EAST   22 STREET", "EAST   23 STREET", "1469", "EAST   22 STREET", "2", "3", "2", "3", "10", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 77585, "77585", null, null, null, 0, null, null, "77585", [ null, "40.61593585600008", "-73.95253530899993", null, false, {
+    "point" : [ -73.95253530899993, 40.61593585600008 ]
+  } ], "79175", "269357", "OLEAN STREET", "even", "EAST   22 STREET", "EAST   23 STREET", "1469", "EAST   22 STREET", "1", "3", "2", "3", "12", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 78481, "78481", null, null, null, 0, null, null, "78481", [ null, "40.609504697000034", "-73.95228416899994", null, false, {
+    "point" : [ -73.95228416899994, 40.609504697000034 ]
+  } ], "79553", "270482", "EAST   21 STREET", "odd", "AVENUE P", "QUENTIN ROAD", "1786", "EAST   21 STREET", "1", "4", "3", "3", "13", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 79210, "79210", null, null, null, 0, null, null, "79210", [ null, "40.61950415300004", "-73.91463863099995", null, false, {
+    "point" : [ -73.91463863099995, 40.61950415300004 ]
+  } ], "75596", "261206", "EAST   65 STREET", "even", "AVENUE N", "AVENUE U", "1428", "EAST   65 STREET", "1", "5", "1", "1", "12", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 79946, "79946", null, null, null, 0, null, null, "79946", [ null, "40.726253332000056", "-73.95809584699992", null, false, {
+    "point" : [ -73.95809584699992, 40.726253332000056 ]
+  } ], "80463", "275600", "QUAY STREET", "odd", "FRANKLIN STREET", "WEST STREET", "79", "QUAY STREET", "1", "1", "1", "2", "3", "MO", "Brooklyn", "11222", "28", "301" ]
+, [ 80317, "80317", null, null, null, 0, null, null, "80317", [ null, "40.71955370400008", "-73.95900554499991", null, false, {
+    "point" : [ -73.95900554499991, 40.71955370400008 ]
+  } ], "83090", "292180", "NORTH    8 STREET", "even", "WYTHE AVENUE", "BERRY STREET", "112", "NORTH    8 STREET", "1", "1", "1", "2", "7", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 81709, "81709", null, null, null, 0, null, null, "81709", [ null, "40.68170517000004", "-74.00156967299995", null, false, {
+    "point" : [ -74.00156967299995, 40.68170517000004 ]
+  } ], "84552", "302456", "SUMMIT STREET", "even", "HICKS STREET", "HENRY STREET", "140", "SUMMIT STREET", "1", "1", "1", "2", "5", "MO", "Brooklyn", "11231", "33", "306" ]
+, [ 81716, "81716", null, null, null, 0, null, null, "81716", [ null, "40.681666745000086", "-74.00143266499992", null, false, {
+    "point" : [ -74.00143266499992, 40.681666745000086 ]
+  } ], "84559", "302459", "SUMMIT STREET", "even", "HICKS STREET", "HENRY STREET", "146", "SUMMIT STREET", "1", "1", "1", "2", "15", "MO", "Brooklyn", "11231", "33", "306" ]
+, [ 82729, "82729", null, null, null, 0, null, null, "82729", [ null, "40.61574509600007", "-74.03612475599994", null, false, {
+    "point" : [ -74.03612475599994, 40.61574509600007 ]
+  } ], "80861", "280847", "97 STREET", "odd", "MARINE AVENUE", "SHORE ROAD", "171", "97 STREET", "2", "1", "1", "2", "4", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 83018, "83018", null, null, null, 0, null, null, "83018", [ null, "40.605581043000086", "-73.9921899599999", null, false, {
+    "point" : [ -73.9921899599999, 40.605581043000086 ]
+  } ], "81244", "281479", "82 STREET", "odd", "BAY PARKWAY", "21 AVENUE", "2137", "81 STREET", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11214", "38", "311" ]
+, [ 84651, "84651", null, null, null, 0, null, null, "84651", [ null, "40.60440885300005", "-73.94879455999995", null, false, {
+    "point" : [ -73.94879455999995, 40.60440885300005 ]
+  } ], "81919", "284720", "AVENUE S", "even", "EAST   19 STREET", "OCEAN AVENUE", "2370", "AVENUE S", "5", "1", "3", "2", "12", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 86292, "86292", null, null, null, 0, null, null, "86292", [ null, "40.670544594000035", "-73.97339382399991", null, false, {
+    "point" : [ -73.97339382399991, 40.670544594000035 ]
+  } ], "85890", "310616", "GARFIELD PLACE", "even", "8 AVENUE", "PROSPECT PARK WEST", "306", "GARFIELD PLACE", "1", "1", "1", "2", "24", "MO", "Brooklyn", "11215", "33", "306" ]
+, [ 86594, "86594", null, null, null, 0, null, null, "86594", [ null, "40.68598954100008", "-73.99273582099994", null, false, {
+    "point" : [ -73.99273582099994, 40.68598954100008 ]
+  } ], "86238", "311420", "WARREN STREET", "even", "COURT STREET", "SMITH STREET", "298", "WARREN STREET", "2", "1", "3", "1", "11", "MO", "Brooklyn", "11201", "33", "306" ]
+, [ 88530, "88530", null, null, null, 0, null, null, "88530", [ null, "40.629004448000046", "-73.9709497959999", null, false, {
+    "point" : [ -73.9709497959999, 40.629004448000046 ]
+  } ], "86523", "312014", "AVENUE H", "odd", "EAST    7 STREET", "OCEAN PARKWAY", "623", "AVENUE H", "2", "1", "2", "1", "19", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 88611, "88611", null, null, null, 0, null, null, "88611", [ null, "40.631992583000056", "-73.96743938999992", null, false, {
+    "point" : [ -73.96743938999992, 40.631992583000056 ]
+  } ], "86604", "312096", "FOSTER AVENUE", "odd", "CONEY ISLAND AVENUE", "EAST    8 STREET", "931", "FOSTER AVENUE", "1", "1", "3", "2", "5", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 88690, "88690", null, null, null, 0, null, null, "88690", [ null, "40.62192809700008", "-73.96076575699993", null, false, {
+    "point" : [ -73.96076575699993, 40.62192809700008 ]
+  } ], "86683", "312174", "EAST   15 STREET", "odd", "AVENUE K", "AVENUE L", "1131", "EAST   15 STREET", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 88712, "88712", null, null, null, 0, null, null, "88712", [ null, "40.62434916700005", "-73.96124704899995", null, false, {
+    "point" : [ -73.96124704899995, 40.62434916700005 ]
+  } ], "86705", "312202", "EAST   15 STREET", "even", "AVENUE J", "AVENUE K", "1028", "EAST   15 STREET", "2", "1", "3", "2", "17", "MO", "Brooklyn", "11230", "41", "314" ]
+, [ 91846, "91846", null, null, null, 0, null, null, "91846", [ null, "40.639517614000056", "-73.96351545399995", null, false, {
+    "point" : [ -73.96351545399995, 40.639517614000056 ]
+  } ], "90918", "326724", "EAST   16 STREET", "even", "DORCHESTER ROAD", "DITMAS AVENUE", "1518", "DORCHESTER ROAD", "1", "2", "3", "1", "9", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 92018, "92018", null, null, null, 0, null, null, "92018", [ null, "40.64890082200009", "-73.96871405299993", null, false, {
+    "point" : [ -73.96871405299993, 40.64890082200009 ]
+  } ], "91679", "331097", "CATON AVENUE", "even", "WESTMINSTER ROAD", "ARGYLE ROAD", "5", "WESTMINSTER ROAD", "3", "2", "3", "2", "6", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 92034, "92034", null, null, null, 0, null, null, "92034", [ null, "40.649677319000034", "-73.96771184999994", null, false, {
+    "point" : [ -73.96771184999994, 40.649677319000034 ]
+  } ], "91695", "331113", "RUGBY ROAD", "even", "CATON AVENUE", "CHURCH AVENUE", "1310", "CATON AVENUE", "1", "2", "3", "2", "15", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 92107, "92107", null, null, null, 0, null, null, "92107", [ null, "40.64684787300007", "-73.96926996699995", null, false, {
+    "point" : [ -73.96926996699995, 40.64684787300007 ]
+  } ], "91768", "331188", "CHURCH AVENUE", "even", "WESTMINSTER ROAD", "STRATFORD ROAD", "79", "STRATFORD ROAD", "1", "2", "3", "2", "36", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 92189, "92189", null, null, null, 0, null, null, "92189", [ null, "40.650851214000056", "-73.96474175399993", null, false, {
+    "point" : [ -73.96474175399993, 40.650851214000056 ]
+  } ], "91850", "331274", "EAST   17 STREET", "even", "CATON AVENUE", "CHURCH AVENUE", "1620", "CATON AVENUE", "2", "2", "3", "1", "20", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 92212, "92212", null, null, null, 0, null, null, "92212", [ null, "40.65064490200007", "-73.96329314199994", null, false, {
+    "point" : [ -73.96329314199994, 40.65064490200007 ]
+  } ], "91873", "331295", "EAST   18 STREET", "odd", "CHURCH AVENUE", "CATON AVENUE", "27", "EAST   18 STREET", "3", "1", "3", "2", "10", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 92434, "92434", null, null, null, 0, null, null, "92434", [ null, "40.64716054400009", "-73.96840495999993", null, false, {
+    "point" : [ -73.96840495999993, 40.64716054400009 ]
+  } ], "94601", "342017", "CHURCH AVENUE", "even", "STRATFORD ROAD", "WESTMINSTER ROAD", "80", "WESTMINSTER ROAD", "1", "2", "3", "1", "36", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 93375, "93375", null, null, null, 0, null, null, "93375", [ null, "40.67444384300006", "-73.91109663099991", null, false, {
+    "point" : [ -73.91109663099991, 40.67444384300006 ]
+  } ], "94838", "341781", "ROCKAWAY AVENUE", "even", "DEAN STREET", "BERGEN STREET", "237", "ROCKAWAY AVENUE", "1", "4", "1", "2", "33", "MO", "Brooklyn", "11233", "43", "316" ]
+, [ 93433, "93433", null, null, null, 0, null, null, "93433", [ null, "40.631971845000066", "-73.94251538899994", null, false, {
+    "point" : [ -73.94251538899994, 40.631971845000066 ]
+  } ], "92371", "347748", "AVENUE H", "even", "EAST   35 STREET", "BROOKLYN AVENUE", "3510", "AVENUE H", "1", "1", "2", "3", "7", "MO", "Brooklyn", "11210", "44", "317" ]
+, [ 93939, "93939", null, null, null, 0, null, null, "93939", [ null, "40.63402369900007", "-73.94007086399995", null, false, {
+    "point" : [ -73.94007086399995, 40.63402369900007 ]
+  } ], "94645", "341977", "EAST   38 STREET", "even", "AVENUE H", "GLENWOOD ROAD", "860", "EAST   38 STREET", "2", "3", "1", "2", "6", "MO", "Brooklyn", "11210", "44", "317" ]
+, [ 93945, "93945", null, null, null, 0, null, null, "93945", [ null, "40.63402369900007", "-73.94007086399995", null, false, {
+    "point" : [ -73.94007086399995, 40.63402369900007 ]
+  } ], "94651", "341978", "EAST   38 STREET", "even", "AVENUE H", "GLENWOOD ROAD", "860", "EAST   38 STREET", "1", "3", "1", "2", "3", "MO", "Brooklyn", "11210", "44", "317" ]
+, [ 94444, "94444", null, null, null, 0, null, null, "94444", [ null, "40.63714324000006", "-73.92396960399992", null, false, {
+    "point" : [ -73.92396960399992, 40.63714324000006 ]
+  } ], "93346", "343342", "FOSTER AVENUE", "even", "EAST   55 STREET", "EAST   56 STREET", "825", "EAST   55 STREET", "3", "2", "3", "1", "30", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 94819, "94819", null, null, null, 0, null, null, "94819", [ null, "40.605377444000055", "-73.90510232899993", null, false, {
+    "point" : [ -73.90510232899993, 40.605377444000055 ]
+  } ], "94418", "342223", "NATIONAL DRIVE", "even", "DEAD END", "INDIANA PLACE", "2546", "NATIONAL DRIVE", "1", "1", "3", "2", "11", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 94864, "94864", null, null, null, 0, null, null, "94864", [ null, "40.60887563600005", "-73.90671444399993", null, false, {
+    "point" : [ -73.90671444399993, 40.60887563600005 ]
+  } ], "94463", "342180", "GAYLORD DRIVE SOUTH", "even", "EAST   66 STREET", "INDIANA PLACE", "97", "GAYLORD DRIVE SOUTH", "6", "4", "3", "2", "13", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 97633, "97633", null, null, null, 0, null, null, "97633", [ null, "40.653757959000075", "-73.9567538579999", null, false, {
+    "point" : [ -73.9567538579999, 40.653757959000075 ]
+  } ], "99251", "362278", "BEDFORD AVENUE", "odd", "LENOX ROAD", "CLARKSON AVENUE", "95", "LENOX ROAD", "1", "2", "1", "1", "13", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 97686, "97686", null, null, null, 0, null, null, "97686", [ null, "40.65364872300006", "-73.95825677599993", null, false, {
+    "point" : [ -73.95825677599993, 40.65364872300006 ]
+  } ], "99375", "362400", "CATON AVENUE", "odd", "BEDFORD AVENUE", "FLATBUSH AVENUE", "32", "LENOX ROAD", "4", "3", "3", "1", "22", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 98376, "98376", null, null, null, 0, null, null, "98376", [ null, "40.60051101600004", "-73.9548041509999", null, false, {
+    "point" : [ -73.9548041509999, 40.60051101600004 ]
+  } ], "95787", "349090", "EAST   17 STREET", "even", "AVENUE T", "AVENUE U", "2028", "EAST   17 STREET", "1", "1", "3", "2", "38", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 100244, "100244", null, null, null, 0, null, null, "100244", [ null, "40.65053502000006", "-74.01025404599994", null, false, {
+    "point" : [ -74.01025404599994, 40.65053502000006 ]
+  } ], "100121", "369074", "44 STREET", "even", "4 AVENUE", "3 AVENUE", "330", "44 STREET", "1", "2", "3", "2", "40", "MO", "Brooklyn", "11220", "34", "307" ]
+, [ 102261, "102261", null, null, null, 0, null, null, "102261", [ null, "40.63643986900007", "-73.97012507099993", null, false, {
+    "point" : [ -73.97012507099993, 40.63643986900007 ]
+  } ], "102824", "382193", "EAST    8 STREET", "odd", "CORTELYOU ROAD", "DITMAS AVENUE", "805", "DITMAS AVENUE", "1", "2", "3", "2", "13", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 102366, "102366", null, null, null, 0, null, null, "102366", [ null, "40.63645356600006", "-73.9700205769999", null, false, {
+    "point" : [ -73.9700205769999, 40.63645356600006 ]
+  } ], "103640", "383010", "EAST    9 STREET", "even", "CORTELYOU ROAD", "DITMAS AVENUE", "821", "DITMAS AVENUE", "1", "2", "3", "2", "10", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 102373, "102373", null, null, null, 0, null, null, "102373", [ null, "40.63645356600006", "-73.9700205769999", null, false, {
+    "point" : [ -73.9700205769999, 40.63645356600006 ]
+  } ], "103647", "383011", "EAST    9 STREET", "even", "CORTELYOU ROAD", "DITMAS AVENUE", "821", "DITMAS AVENUE", "2", "2", "3", "2", "10", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 102384, "102384", null, null, null, 0, null, null, "102384", [ null, "40.63759003900009", "-73.97052449799992", null, false, {
+    "point" : [ -73.97052449799992, 40.63759003900009 ]
+  } ], "103658", "383030", "EAST    8 STREET", "even", "CORTELYOU ROAD", "DITMAS AVENUE", "506", "EAST    8 STREET", "2", "1", "3", "7", "6", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 102404, "102404", null, null, null, 0, null, null, "102404", [ null, "40.63654391700004", "-73.9691630179999", null, false, {
+    "point" : [ -73.9691630179999, 40.63654391700004 ]
+  } ], "103678", "383041", "EAST    9 STREET", "odd", "CORTELYOU ROAD", "DITMAS AVENUE", "901", "DITMAS AVENUE", "1", "2", "3", "3", "10", "MO", "Brooklyn", "11218", "39", "312" ]
+, [ 102729, "102729", null, null, null, 0, null, null, "102729", [ null, "40.610856082000055", "-73.95462066599993", null, false, {
+    "point" : [ -73.95462066599993, 40.610856082000055 ]
+  } ], "102612", "380875", "EAST   17 STREET", "odd", "AVENUE P", "AVENUE O", "1901", "AVENUE P", "2", "1", "3", "1", "18", "MO", "Brooklyn", "11229", "41", "314" ]
+, [ 102945, "102945", null, null, null, 0, null, null, "102945", [ null, "40.64164597900009", "-73.96735901099993", null, false, {
+    "point" : [ -73.96735901099993, 40.64164597900009 ]
+  } ], "102901", "382270", "WESTMINSTER ROAD", "even", "SLOCUM PLACE", "CORTELYOU ROAD", "290", "WESTMINSTER ROAD", "3", "1", "3", "2", "20", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 103044, "103044", null, null, null, 0, null, null, "103044", [ null, "40.63677947900004", "-73.96738661199993", null, false, {
+    "point" : [ -73.96738661199993, 40.63677947900004 ]
+  } ], "103063", "382431", "CONEY ISLAND AVENUE", "odd", "DORCHESTER ROAD", "DITMAS AVENUE", "474", "STRATFORD ROAD", "1", "3", "3", "1", "19", "MO", "Brooklyn", "11218", "41", "314" ]
+, [ 103800, "103800", null, null, null, 0, null, null, "103800", [ null, "40.57712094500005", "-73.95086017699992", null, false, {
+    "point" : [ -73.95086017699992, 40.57712094500005 ]
+  } ], "103117", "382492", "BEAUMONT STREET", "odd", "HAMPTON AVENUE", "ORIENTAL BOULEVARD", "301", "ORIENTAL BOULEVARD", "6", "2", "3", "2", "12", "MO", "Brooklyn", "11235", "42", "315" ]
+, [ 103832, "103832", null, null, null, 0, null, null, "103832", [ null, "40.57702797800005", "-73.95169900099995", null, false, {
+    "point" : [ -73.95169900099995, 40.57702797800005 ]
+  } ], "103149", "382524", "BEAUMONT STREET", "even", "HAMPTON AVENUE", "ORIENTAL BOULEVARD", "213", "ORIENTAL BOULEVARD", "3", "2", "3", "2", "5", "MO", "Brooklyn", "11235", "42", "315" ]
+, [ 104053, "104053", null, null, null, 0, null, null, "104053", [ null, "40.60979748700004", "-73.9441840049999", null, false, {
+    "point" : [ -73.9441840049999, 40.60979748700004 ]
+  } ], "104264", "397033", "QUENTIN ROAD", "even", "NOSTRAND AVENUE", "EAST   29 STREET", "2912", "QUENTIN ROAD", "1", "1", "3", "2", "24", "MO", "Brooklyn", "11229", "42", "315" ]
+, [ 104253, "104253", null, null, null, 0, null, null, "104253", [ null, "40.604168798000046", "-73.96808678299993", null, false, {
+    "point" : [ -73.96808678299993, 40.604168798000046 ]
+  } ], "104711", "404424", "AVENUE R", "even", "EAST    4 STREET", "EAST    5 STREET", "1890", "EAST    5 STREET", "1", "2", "3", "1", "20", "MO", "Brooklyn", "11223", "42", "315" ]
+, [ 104732, "104732", null, null, null, 0, null, null, "104732", [ null, "40.611485118000076", "-73.9433289989999", null, false, {
+    "point" : [ -73.9433289989999, 40.611485118000076 ]
+  } ], "104065", "396832", "BURNETT STREET", "even", "NOSTRAND AVENUE", "QUENTIN ROAD", "1639", "BURNETT STREET", "2", "4", "2", "1", "16", "MO", "Brooklyn", "11229", "45", "318" ]
+, [ 108173, "108173", null, null, null, 0, null, null, "108173", [ null, "40.63058078600005", "-73.99529976899993", null, false, {
+    "point" : [ -73.99529976899993, 40.63058078600005 ]
+  } ], "108181", "436178", "56 STREET", "odd", "NEW UTRECHT AVENUE", "14 AVENUE", "1329", "56 STREET", "1", "1", "2", "2", "20", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 108266, "108266", null, null, null, 0, null, null, "108266", [ null, "40.62974072700007", "-73.99243211399994", null, false, {
+    "point" : [ -73.99243211399994, 40.62974072700007 ]
+  } ], "108274", "436275", "55 STREET", "even", "15 AVENUE", "14 AVENUE", "1442", "55 STREET", "1", "1", "3", "2", "8", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 108291, "108291", null, null, null, 0, null, null, "108291", [ null, "40.62859326200004", "-73.99049765099994", null, false, {
+    "point" : [ -73.99049765099994, 40.62859326200004 ]
+  } ], "108299", "436302", "55 STREET", "odd", "16 AVENUE", "15 AVENUE", "1525", "55 STREET", "1", "1", "2", "2", "8", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 108796, "108796", null, null, null, 0, null, null, "108796", [ null, "40.63191441100008", "-73.98996036499994", null, false, {
+    "point" : [ -73.98996036499994, 40.63191441100008 ]
+  } ], "108901", "448959", "51 STREET", "odd", "14 AVENUE", "15 AVENUE", "1451", "51 STREET", "1", "1", "3", "1", "26", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 108850, "108850", null, null, null, 0, null, null, "108850", [ null, "40.63172487200006", "-73.98837877999995", null, false, {
+    "point" : [ -73.98837877999995, 40.63172487200006 ]
+  } ], "108955", "449012", "50 STREET", "even", "16 AVENUE", "15 AVENUE", "5001", "15 AVENUE", "2", "2", "3", "1", "10", "MO", "Brooklyn", "11219", "39", "312" ]
+, [ 109179, "109179", null, null, null, 0, null, null, "109179", [ null, "40.57414199500005", "-73.9908113649999", null, false, {
+    "point" : [ -73.9908113649999, 40.57414199500005 ]
+  } ], "105896", "412429", "WEST   24 STREET", "odd", "SURF AVENUE", "NEPTUNE AVENUE", "2970", "WEST   24 STREET", "2", "4", "3", "1", "20", "MO", "Brooklyn", "11224", "40", "313" ]
+, [ 109684, "109684", null, null, null, 0, null, null, "109684", [ null, "40.61572282800006", "-73.94863099999992", null, false, {
+    "point" : [ -73.94863099999992, 40.61572282800006 ]
+  } ], "107340", "434914", "EAST   26 STREET", "odd", "AVENUE O", "AVENUE N", "1437", "EAST   26 STREET", "1", "1", "3", "3", "15", "MO", "Brooklyn", "11210", "41", "314" ]
+, [ 109818, "109818", null, null, null, 0, null, null, "109818", [ null, "40.60513826300007", "-73.97014267899993", null, false, {
+    "point" : [ -73.97014267899993, 40.60513826300007 ]
+  } ], "104946", "404663", "EAST    2 STREET", "odd", "QUENTIN ROAD", "KINGS HIGHWAY", "1859", "EAST    3 STREET", "1", "1", "1", "1", "15", "MO", "Brooklyn", "11223", "42", "315" ]
+, [ 120961, "120961", null, null, null, 0, null, null, "120961", [ null, "40.616179474000035", "-73.9344282589999", null, false, {
+    "point" : [ -73.9344282589999, 40.616179474000035 ]
+  } ], "120308", "471131", "QUENTIN ROAD", "even", "RYDER STREET", "KIMBALL STREET", "3918", "QUENTIN ROAD", "1", "1", "3", "2", "28", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 122452, "122452", null, null, null, 0, null, null, "122452", [ null, "40.62022738700006", "-73.90253450099993", null, false, {
+    "point" : [ -73.90253450099993, 40.62022738700006 ]
+  } ], "121803", "472636", "BERGEN AVENUE", "even", "AVENUE U", "AVENUE V", "7521", "AVENUE V", "1", "2", "3", "2", "44", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 123858, "123858", null, null, null, 0, null, null, "123858", [ null, "40.62442982300007", "-73.91670009299992", null, false, {
+    "point" : [ -73.91670009299992, 40.62442982300007 ]
+  } ], "123217", "474065", "AVENUE L", "even", "EAST   68 STREET", "EAST   69 STREET", "1201", "EAST   68 STREET", "1", "2", "1", "2", "25", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 124008, "124008", null, null, null, 0, null, null, "124008", [ null, "40.62731451700006", "-73.91288501799994", null, false, {
+    "point" : [ -73.91288501799994, 40.62731451700006 ]
+  } ], "123404", "474247", "BERGEN AVENUE", "even", "AVENUE L", "AVENUE M", "1214", "BERGEN AVENUE", "1", "1", "3", "2", "18", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 124024, "124024", null, null, null, 0, null, null, "124024", [ null, "40.62735026200005", "-73.91296783099995", null, false, {
+    "point" : [ -73.91296783099995, 40.62735026200005 ]
+  } ], "123420", "474263", "BERGEN AVENUE", "even", "AVENUE L", "AVENUE M", "1210", "BERGEN AVENUE", "1", "1", "3", "2", "21", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 124251, "124251", null, null, null, 0, null, null, "124251", [ null, "40.629253308000045", "-73.92602128499993", null, false, {
+    "point" : [ -73.92602128499993, 40.629253308000045 ]
+  } ], "123612", "474455", "EAST   52 STREET", "odd", "AVENUE I", "AVENUE J", "1263", "EAST   52 STREET", "1", "1", "1", "2", "18", "MO", "Brooklyn", "11234", "45", "318" ]
+, [ 125132, "125132", null, null, null, 0, null, null, "125132", [ null, "40.700530420000064", "-73.96093949699991", null, false, {
+    "point" : [ -73.96093949699991, 40.700530420000064 ]
+  } ], "126712", "477653", "PENN STREET", "even", "WILLIAMSBURG ST EAST", "WYCKOFF AVENUE", "40", "PENN STREET", "2", "1", "1", "2", "3", "MO", "Brooklyn", "11211", "28", "301" ]
+, [ 130154, "130154", null, null, null, 0, null, null, "130154", [ null, "40.69667314000009", "-73.90684043599992", null, false, {
+    "point" : [ -73.90684043599992, 40.69667314000009 ]
+  } ], "133996", "485059", "HANCOCK STREET", "odd", "IRVING AVENUE", "WYCKOFF AVENUE", "1445", "HANCOCK STREET", "1", "1", "3", "2", "1", "MO", "Brooklyn", "11237", "31", "304" ]
+, [ 130654, "130654", null, null, null, 0, null, null, "130654", [ null, "40.644637412000066", "-73.96603507599991", null, false, {
+    "point" : [ -73.96603507599991, 40.644637412000066 ]
+  } ], "130235", "481257", "BEVERLY ROAD", "odd", "ARGYLE ROAD", "RUGBY ROAD", "220", "RUGBY ROAD", "2", "2", "3", "2", "32", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 131023, "131023", null, null, null, 0, null, null, "131023", [ null, "40.63978235400003", "-73.95904734299995", null, false, {
+    "point" : [ -73.95904734299995, 40.63978235400003 ]
+  } ], "134578", "485650", "OCEAN AVENUE", "odd", "DORCHESTER ROAD", "DITMAS AVENUE", "941", "OCEAN AVENUE", "1", "1", "3", "2", "20", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 132374, "132374", null, null, null, 0, null, null, "132374", [ null, "40.64885073000005", "-73.95101636299995", null, false, {
+    "point" : [ -73.95101636299995, 40.64885073000005 ]
+  } ], "134691", "485762", "SNYDER AVENUE", "even", "ROGERS AVENUE", "NOSTRAND AVENUE", "2820", "SNYDER AVENUE", "1", "1", "1", "2", "1", "MO", "Brooklyn", "11226", "44", "317" ]
+, [ 132622, "132622", null, null, null, 0, null, null, "132622", [ null, "40.64715542000005", "-73.8980951719999", null, false, {
+    "point" : [ -73.8980951719999, 40.64715542000005 ]
+  } ], "130900", "481933", "EAST  102 STREET", "even", "GLENWOOD ROAD", "FLATLANDS AVENUE", "738", "EAST  102 STREET", "1", "1", "1", "2", "57", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 132747, "132747", null, null, null, 0, null, null, "132747", [ null, "40.64330316400009", "-73.90291518499993", null, false, {
+    "point" : [ -73.90291518499993, 40.64330316400009 ]
+  } ], "131025", "482064", "CONKLIN AVENUE", "even", "EAST   95 STREET", "EAST   96 STREET", "132", "CONKLIN AVENUE", "1", "1", "3", "2", "26", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 133612, "133612", null, null, null, 0, null, null, "133612", [ null, "40.63436796700006", "-73.91201471699992", null, false, {
+    "point" : [ -73.91201471699992, 40.63436796700006 ]
+  } ], "131892", "482940", "EAST   80 STREET", "odd", "FLATLANDS AVENUE", "AVENUE J", "950", "EAST   80 STREET", "1", "4", "1", "2", "12", "MO", "Brooklyn", "11236", "45", "318" ]
+, [ 136068, "136068", null, null, null, 0, null, null, "136068", [ null, "40.62318409400007", "-74.03413310699995", null, false, {
+    "point" : [ -74.03413310699995, 40.62318409400007 ]
+  } ], "136612", "487740", "88 STREET", "odd", "COLONIAL ROAD", "RIDGE BOULEVARD", "8718", "RIDGE BOULEVARD", "1", "2", "1", "2", "21", "MO", "Brooklyn", "11209", "37", "310" ]
+, [ 137511, "137511", null, null, null, 0, null, null, "137511", [ null, "40.600470434000044", "-74.00376081599995", null, false, {
+    "point" : [ -74.00376081599995, 40.600470434000044 ]
+  } ], "139459", "490629", "BAY   23 STREET", "odd", "CROPSEY AVENUE", "DEAD END", "229", "BAY   23 STREET", "1", "1", "3", "2", "10", "MO", "Brooklyn", "11214", "38", "311" ]
+, [ 140031, "140031", null, null, null, 0, null, null, "140031", [ null, "40.691672725000046", "-73.98162871599993", null, false, {
+    "point" : [ -73.98162871599993, 40.691672725000046 ]
+  } ], "140612", "630920", "FLATBUSH AVENUE EXTENSION", " ", "DE KALB AVENUE", "FLEET STREET", "1", "UNIVERSITY PLAZA", "4", "1", "1", "3", "2", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140032, "140032", null, null, null, 0, null, null, "140032", [ null, "40.691672725000046", "-73.98162871599993", null, false, {
+    "point" : [ -73.98162871599993, 40.691672725000046 ]
+  } ], "140613", "630922", "FLATBUSH AVENUE EXTENSION", " ", "DE KALB AVENUE", "FLEET STREET", "1", "UNIVERSITY PLAZA", "5", "1", "1", "3", "2", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140036, "140036", null, null, null, 0, null, null, "140036", [ null, "40.691672725000046", "-73.98162871599993", null, false, {
+    "point" : [ -73.98162871599993, 40.691672725000046 ]
+  } ], "140617", "630921", "FLATBUSH AVENUE EXTENSION", " ", "DE KALB AVENUE", "FLEET STREET", "1", "UNIVERSITY PLAZA", "6", "1", "1", "2", "2", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140037, "140037", null, null, null, 0, null, null, "140037", [ null, "40.691672725000046", "-73.98162871599993", null, false, {
+    "point" : [ -73.98162871599993, 40.691672725000046 ]
+  } ], "140618", "630923", "FLATBUSH AVENUE EXTENSION", " ", "DE KALB AVENUE", "FLEET STREET", "1", "UNIVERSITY PLAZA", "4", "1", "1", "3", "2", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140039, "140039", null, null, null, 0, null, null, "140039", [ null, "40.693023362000076", "-73.98299865199994", null, false, {
+    "point" : [ -73.98299865199994, 40.693023362000076 ]
+  } ], "140620", "630927", "FLATBUSH AVENUE EXTENSION", " ", "PRINCE STREET", "MYRTLE AVENUE", "245", "FLATBUSH AVENUE EXTENSION", "4", "1", "1", "4", "2", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140397, "140397", null, null, null, 0, null, null, "140397", [ null, "40.693023362000076", "-73.98299865199994", null, false, {
+    "point" : [ -73.98299865199994, 40.693023362000076 ]
+  } ], "140978", "631289", "FLATBUSH AVENUE EXTENSION", " ", "PRINCE STREET", "MYRTLE AVENUE", "245", "FLATBUSH AVENUE EXTENSION", "1", "1", "1", "2", "3", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140401, "140401", null, null, null, 0, null, null, "140401", [ null, "40.693023362000076", "-73.98299865199994", null, false, {
+    "point" : [ -73.98299865199994, 40.693023362000076 ]
+  } ], "140982", "631288", "FLATBUSH AVENUE EXTENSION", " ", "PRINCE STREET", "MYRTLE AVENUE", "245", "FLATBUSH AVENUE EXTENSION", "3", "1", "1", "3", "3", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140757, "140757", null, null, null, 0, null, null, "140757", [ null, "40.693023362000076", "-73.98299865199994", null, false, {
+    "point" : [ -73.98299865199994, 40.693023362000076 ]
+  } ], "141340", "631667", "FLATBUSH AVENUE EXTENSION", " ", "PRINCE STREET", "MYRTLE AVENUE", "245", "FLATBUSH AVENUE EXTENSION", "2", "1", "1", "2", "4", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 140760, "140760", null, null, null, 0, null, null, "140760", [ null, "40.693023362000076", "-73.98299865199994", null, false, {
+    "point" : [ -73.98299865199994, 40.693023362000076 ]
+  } ], "141343", "631666", "FLATBUSH AVENUE EXTENSION", " ", "PRINCE STREET", "MYRTLE AVENUE", "245", "FLATBUSH AVENUE EXTENSION", "5", "1", "1", "2", "4", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 141733, "141733", null, null, null, 0, null, null, "141733", [ null, "40.69537853400004", "-73.97026815599992", null, false, {
+    "point" : [ -73.97026815599992, 40.69537853400004 ]
+  } ], "142334", "632673", "PARK AVENUE", " ", "VANDERBILT AVENUE", "CLINTON AVENUE", "71", "VANDERBILT AVENUE", "1", "2", "3", "3", "7", "MO", "Brooklyn", "11205", "29", "302" ]
+, [ 142872, "142872", null, null, null, 0, null, null, "142872", [ null, "40.69635109700005", "-73.99357134399992", null, false, {
+    "point" : [ -73.99357134399992, 40.69635109700005 ]
+  } ], "143484", "633837", "HENRY STREET", " ", "PIERREPONT STREET", "CLARK STREET", "146", "HENRY STREET", "2", "1", "3", "3", "11", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 143388, "143388", null, null, null, 0, null, null, "143388", [ null, "40.69512982200007", "-73.96434329699991", null, false, {
+    "point" : [ -73.96434329699991, 40.69512982200007 ]
+  } ], "144010", "634379", "GRAND AVENUE", " ", "MYRTLE AVENUE", "PARK AVENUE", "71", "GRAND AVENUE", "1", "1", "3", "3", "13", "MO", "Brooklyn", "11205", "29", "302" ]
+, [ 143476, "143476", null, null, null, 0, null, null, "143476", [ null, "40.693913759000054", "-73.99387088799995", null, false, {
+    "point" : [ -73.99387088799995, 40.693913759000054 ]
+  } ], "144100", "634463", "REMSEN STREET", " ", "CLINTON STREET", "HENRY STREET", "118", "REMSEN STREET", "2", "1", "3", "1", "13", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 143649, "143649", null, null, null, 0, null, null, "143649", [ null, "40.70017190300007", "-73.99543912299993", null, false, {
+    "point" : [ -73.99543912299993, 40.70017190300007 ]
+  } ], "144274", "634641", "CRANBERRY STREET", " ", "COLUMBIA HEIGHTS", "WILLOW STREET", "81", "COLUMBIA HEIGHTS", "3", "2", "1", "2", "13", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 144870, "144870", null, null, null, 0, null, null, "144870", [ null, null, null, null, false, null ], "147008", "3596", "BANK STREET", "even", "AVENUE D", "FOSTER AVENUE", "106-15", "BANK STREET", "11", "1", "3", "2", "20", "MO", "Brooklyn", " ", "0", "0" ]
+, [ 146434, "146434", null, null, null, 0, null, null, "146434", [ null, "40.691465519000076", "-73.99603470699992", null, false, {
+    "point" : [ -73.99603470699992, 40.691465519000076 ]
+  } ], "145672", "636086", "STATE STREET", " ", "HENRY STREET", "GARDEN PLACE", "89", "STATE STREET", "2", "2", "3", "2", "22", "MO", "Brooklyn", "11201", "29", "302" ]
+, [ 148170, "148170", null, null, null, 0, null, null, "148170", [ null, "40.680818128000055", "-73.99171749399994", null, false, {
+    "point" : [ -73.99171749399994, 40.680818128000055 ]
+  } ], "148058", "209058", "PRESIDENT STREET", "odd", "SMITH STREET", "HOYT STREET", "305A", "HOYT STREET", "1", "1", "3", "1", "3", "MO", "Brooklyn", " ", "33", "306" ]
+, [ 149071, "149071", null, null, null, 0, null, null, "149071", [ null, "40.64535190200007", "-73.96012137199995", null, false, {
+    "point" : [ -73.96012137199995, 40.64535190200007 ]
+  } ], "146749", "229537", "OCEAN AVENUE", "even", "ALBEMARLE ROAD", "BEVERLY ROAD", "716", "OCEAN AVENUE", "1", "1", "3", "2", "13", "MO", "Brooklyn", "11226", "41", "314" ]
+, [ 149960, "149960", null, null, null, 0, null, null, "149960", [ null, "40.608868579000045", "-73.9139217309999", null, false, {
+    "point" : [ -73.9139217309999, 40.608868579000045 ]
+  } ], "148279", "259724", "56 DRIVE", "even", "WHITMAN DRIVE", "ARKANSAS DRIVE", "2553", "56 DRIVE", "1", "4", "1", "1", "2", "MO", "Brooklyn", " ", "45", "318" ]
+, [ 149961, "149961", null, null, null, 0, null, null, "149961", [ null, "40.608868579000045", "-73.9139217309999", null, false, {
+    "point" : [ -73.9139217309999, 40.608868579000045 ]
+  } ], "148280", "259725", "56 DRIVE", "even", "WHITMAN DRIVE", "ARKANSAS DRIVE", "2553", "56 DRIVE", "2", "4", "1", "1", "3", "MO", "Brooklyn", " ", "45", "318" ]
+, [ 149962, "149962", null, null, null, 0, null, null, "149962", [ null, "40.608868579000045", "-73.9139217309999", null, false, {
+    "point" : [ -73.9139217309999, 40.608868579000045 ]
+  } ], "148281", "259726", "56 DRIVE", "even", "WHITMAN DRIVE", "ARKANSAS DRIVE", "2553", "56 DRIVE", "3", "4", "1", "1", "3", "MO", "Brooklyn", " ", "45", "318" ]
+ ]
+}
